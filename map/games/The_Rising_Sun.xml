@@ -1887,42 +1887,42 @@
   <attachmentList>
     <attachment name="unitAttachment" attachTo="Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
-      <option name="TransportCost" value="2"/>
+      <option name="transportCost" value="2"/>
       <option name="attack" value="1"/>
       <option name="defense" value="2"/>
       <option name="ArtillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Elite" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
-      <option name="TransportCost" value="2"/>
+      <option name="transportCost" value="2"/>
       <option name="attack" value="3"/>
       <option name="defense" value="2"/>
       <option name="ArtillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Marine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
-      <option name="TransportCost" value="2"/>
+      <option name="transportCost" value="2"/>
       <option name="attack" value="2"/>
       <option name="defense" value="2"/>
       <option name="ArtillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
-      <option name="TransportCost" value="3"/>
+      <option name="transportCost" value="3"/>
       <option name="attack" value="2"/>
       <option name="defense" value="2"/>
       <option name="Artillery" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Tank" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="TransportCost" value="3"/>
+      <option name="transportCost" value="3"/>
       <option name="canBlitz" value="true"/>
       <option name="attack" value="3"/>
       <option name="defense" value="3"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Mech.Inf" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="3"/>
-      <option name="TransportCost" value="3"/>
+      <option name="transportCost" value="3"/>
       <option name="canBlitz" value="true"/>
       <option name="attack" value="2"/>
       <option name="defense" value="2"/>
@@ -1930,7 +1930,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="Tankette" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="TransportCost" value="2"/>
+      <option name="transportCost" value="2"/>
       <option name="canBlitz" value="true"/>
       <option name="attack" value="2"/>
       <option name="defense" value="1"/>
@@ -2072,11 +2072,11 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="Factory" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isFactory" value="true"/>
-      <option name="TransportCost" value="6"/>
+      <option name="transportCost" value="6"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="AAGun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isAA" value="true"/>
-      <option name="TransportCost" value="3"/>
+      <option name="transportCost" value="3"/>
       <option name="movement" value="1"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Bunker" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
