@@ -1890,28 +1890,28 @@
       <option name="transportCost" value="2"/>
       <option name="attack" value="1"/>
       <option name="defense" value="2"/>
-      <option name="ArtillerySupportable" value="true"/>
+      <option name="artillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Elite" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="2"/>
       <option name="attack" value="3"/>
       <option name="defense" value="2"/>
-      <option name="ArtillerySupportable" value="true"/>
+      <option name="artillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Marine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="2"/>
       <option name="attack" value="2"/>
       <option name="defense" value="2"/>
-      <option name="ArtillerySupportable" value="true"/>
+      <option name="artillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="3"/>
       <option name="attack" value="2"/>
       <option name="defense" value="2"/>
-      <option name="Artillery" value="true"/>
+      <option name="artillery" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Tank" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -1926,7 +1926,7 @@
       <option name="canBlitz" value="true"/>
       <option name="attack" value="2"/>
       <option name="defense" value="2"/>
-      <option name="Artillery" value="true"/>
+      <option name="artillery" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Tankette" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -1937,25 +1937,25 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="Fighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="4"/>
-      <option name="CarrierCost" value="1"/>
+      <option name="carrierCost" value="1"/>
       <option name="isAir" value="true"/>
       <option name="attack" value="3"/>
       <option name="defense" value="4"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="EarlyFighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="4"/>
-      <option name="CarrierCost" value="1"/>
+      <option name="carrierCost" value="1"/>
       <option name="isAir" value="true"/>
       <option name="attack" value="2"/>
       <option name="defense" value="3"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="L.Fighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="6"/>
-      <option name="CarrierCost" value="1"/>
+      <option name="carrierCost" value="1"/>
       <option name="isAir" value="true"/>
       <option name="attack" value="3"/>
       <option name="defense" value="4"/>
-      <option name="Artillery" value="true"/>
+      <option name="artillery" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Bomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="6"/>
@@ -1969,7 +1969,7 @@
       <option name="isAir" value="true"/>
       <option name="attack" value="5"/>
       <option name="defense" value="2"/>
-      <option name="Artillery" value="true"/>
+      <option name="artillery" value="true"/>
       <option name="isStrategicBomber" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="NakajimaG5N" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1977,7 +1977,7 @@
       <option name="isAir" value="true"/>
       <option name="attack" value="5"/>
       <option name="defense" value="2"/>
-      <option name="Artillery" value="true"/>
+      <option name="artillery" value="true"/>
       <option name="isStrategicBomber" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Lancaster" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1985,27 +1985,27 @@
       <option name="isAir" value="true"/>
       <option name="attack" value="5"/>
       <option name="defense" value="2"/>
-      <option name="Artillery" value="true"/>
+      <option name="artillery" value="true"/>
       <option name="isStrategicBomber" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="isSea" value="true"/>
-      <option name="TransportCapacity" value="5"/>
+      <option name="transportCapacity" value="5"/>
       <option name="attack" value="0"/>
       <option name="defense" value="1"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="B.Transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="isSea" value="true"/>
-      <option name="TransportCapacity" value="8"/>
+      <option name="transportCapacity" value="8"/>
       <option name="attack" value="0"/>
       <option name="defense" value="1"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="T.Boat" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="isSea" value="true"/>
-      <option name="TransportCapacity" value="2"/>
+      <option name="transportCapacity" value="2"/>
       <option name="attack" value="2"/>
       <option name="defense" value="1"/>
     </attachment>
@@ -2029,18 +2029,18 @@
       <option name="isSea" value="true"/>
       <option name="attack" value="3"/>
       <option name="defense" value="3"/>
-      <option name="TransportCapacity" value="2"/>
+      <option name="transportCapacity" value="2"/>
       <option name="canBombard" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="CarrierCapacity" value="2"/>
+      <option name="carrierCapacity" value="2"/>
       <option name="movement" value="2"/>
       <option name="isSea" value="true"/>
       <option name="attack" value="1"/>
       <option name="defense" value="3"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="B.Carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="CarrierCapacity" value="3"/>
+      <option name="carrierCapacity" value="3"/>
       <option name="movement" value="2"/>
       <option name="isSea" value="true"/>
       <option name="attack" value="1"/>
@@ -2052,7 +2052,7 @@
       <option name="isAir" value="true"/>
       <option name="attack" value="5"/>
       <option name="defense" value="2"/>
-      <option name="Artillery" value="true"/>
+      <option name="artillery" value="true"/>
       <option name="isStrategicBomber" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Submarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -2066,7 +2066,7 @@
       <option name="isSub" value="true"/>
       <option name="movement" value="3"/>
       <option name="isSea" value="true"/>
-      <option name="TransportCapacity" value="2"/>
+      <option name="transportCapacity" value="2"/>
       <option name="attack" value="3"/>
       <option name="defense" value="1"/>
     </attachment>
