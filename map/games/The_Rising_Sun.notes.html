@@ -1,0 +1,610 @@
+<html>
+<body bgcolor="EEEEEE" align="center">
+
+<div style="text-align: center;">
+<br>
+
+
+
+<tr>
+<th style="font-size:150%;000000">  <br>THE RISING SUN<br>  </th>
+</tr>
+<th<b>Game Design by Sieg</b></th>
+
+
+
+</tr>
+</table>
+<br>
+<br>
+
+<tr>
+<th style="font-size:110%;000000"colspan="2">Version 1.9.3</th>
+</tr>
+</table>
+<br>
+<br>
+
+<b>Its December the 8. 1941  </b> <br>
+<b>The Sun rises, how long will it shine... </b> <br>
+<b> </b> <br>
+<br>
+
+
+<table border="1"bgcolor="EEEEEE">
+<br>
+<th style="font-size:120%;000000"bgcolor="997744"colspan="2">Alliances</th>
+</tr>
+<tr>
+<th bgcolor="CCAA77">Axis</th>
+<th bgcolor="CCCC99">Allies</th>
+</tr>
+<tr>
+<td bgcolor="CCAA77">Yamamoto</td>
+<td bgcolor="CCCC99">Chinese</td>
+</tr>
+<tr>
+<td bgcolor="CCAA77">Hisaichi</td>
+<td bgcolor="CCCC99">Dutch</td>
+</tr>
+<tr>
+<td bgcolor="CCAA77">Thai</td>
+<td bgcolor="CCCC99">British</td>
+</tr>
+<tr>
+<td bgcolor="CCAA77"></td>
+<td bgcolor="CCCC99">Anzac</td>
+</tr>
+<tr>
+<td bgcolor="CCAA77"></td>
+<td bgcolor="CCCC99">Americans</td>
+</tr>
+<tr>
+<td bgcolor="CCAA77">Masaharu</td>
+<td bgcolor="CCCC99">Russians</td>
+</tr>
+
+
+
+
+</table>
+<br>
+
+
+<br>(Nations listed in their <b>Turn Order</b>. Alternatively, refer to the "Stats" tab.)
+<br>
+<br>
+<br>
+
+
+<table border="1"bgcolor="CCAA77">
+<tr>
+
+	<th style="font-size:120%;000000"bgcolor="997744"colspan="7">Land Units</th>
+	</tr>
+<tr bgcolor="CDBA96">
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>size</th>
+	<th>special abilities</th>
+	</tr>
+
+	<tr bgcolor="CCCC99">
+	<td>Infantry</td>
+	<td>1</td>
+	<td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>S</td>
+	<td>isSupportable</td>
+	</tr>
+
+
+	<td>Marine</td>
+	<td>2</td>
+	<td>2</td>
+	<td>1</td>
+	<td>3</td>
+	<td>S</td>
+	<td>isSupportable</td>
+	</tr>
+	<tr bgcolor="CCCC99">
+	<td>Elite</td>
+	<td>3</td>
+	<td>2</td>
+	<td>1</td>
+	<td>4</td>
+	<td>S</td>
+	<td>isSupportable</td>
+	</tr>
+	
+	
+	<td>Tankette</td>
+	<td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>3.5</td>
+	<td>S</td>
+	<td>canBlitz, (get 2 for 7)</td>
+	</tr>
+	<tr bgcolor="CCCC99">
+	<td>Artillery</td>
+	<td>2</td>
+	<td>2</td>
+	<td>1</td>
+	<td>3.5</td>
+	<td>L</td>
+	<td>givesSupport, (get 2 for 7)</td>
+	</tr>
+	
+	
+	
+	<td>Mech.Inf</td>
+	<td>2</td>
+	<td>2</td>
+	<td>3</td>
+	<td>5</td>
+	<td>L</td>
+	<td>canBlitz, givesSupport</td>
+	</tr>
+	
+	<tr bgcolor="CCCC99">
+	<td>Tank</td>
+	<td>3</td>
+	<td>3</td>
+	<td>2</td>
+	<td>5</td>
+	<td>L</td>
+	<td>canBlitz</td>
+	</tr>
+	
+	<td>AAGun</td>
+	<td>0</td>
+	<td>1</td>
+	<td>1</td>
+	<td>5</td>
+	<td>L</td>
+	<td>isAA</td>
+	</tr>
+	
+	<tr bgcolor="CCCC99">
+	<td>Factory</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>15</td>
+	<td>H</td>
+	<td>isFactory</td>
+	</tr>
+	
+	
+<tr bgcolor="CDBA96">
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>size</th>
+	<th>special abilities</th>
+	</tr>
+</table>
+<br>
+
+
+<table border="1"bgcolor="CCAA77">
+<tr>
+
+	<th style="font-size:120%;000000"bgcolor="997744"colspan="6">Air Units</th>
+	</tr>
+	<tr bgcolor="CDBA96">
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>special abilities</th>
+	</tr>
+
+	<tr bgcolor="CCCC99">
+	<td>EarlyFighter</td>
+	<td>2</td>
+	<td>3</td>
+	<td>4</td>
+	<td>8</td>
+	<td>canLandOnCarrier</td>
+	</tr>
+	
+	<td>Fighter</td>
+	<td>3</td>
+	<td>4</td>
+	<td>4</td>
+	<td>10</td>
+	<td>canLandOnCarrier</td>
+	</tr>
+	
+	<tr bgcolor="CCCC99">
+	<td>Bomber</td>
+	<td>4</td>
+	<td>1</td>
+	<td>6</td>
+	<td>14</td>
+	<td>canDoSBR</td>
+	</tr>
+
+	<tr bgcolor="CDBA96">
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>special abilities</th>
+	</tr>
+</table>
+<br>
+
+<table border="1"bgcolor="CCAA770">
+<tr>
+
+	<th style="font-size:120%;000000"bgcolor="9977443"colspan="6">Naval Units</th>
+	</tr>
+<tr bgcolor="CDBA96">
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>special abilities</th>
+	</tr>
+
+	<tr bgcolor="CCCC99">
+	<td>T.boat</td>
+	<td>2</td>
+	<td>1</td>
+	<td>1</td>
+	<td>5</td>
+	<td>Transport up to 1 S unit</td>
+	</tr>
+	
+	<td>Transport</td>
+	<td>0</td>
+	<td>1</td>
+	<td>2</td>
+	<td>6</td>
+	<td>Transport up to 1 S + 1 S/L unit</td>
+	</tr>
+<tr bgcolor="CCCC99">
+	<td>B.Transport</td>
+	<td>0</td>
+	<td>1</td>
+	<td>2</td>
+	<td>8</td>
+	<td>Transport up to 4 S or 2S/1L unit</td>
+	</tr>
+	
+	
+	<td>Submarine</td>
+	<td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>6</td>
+	<td>isSubmarine</td>
+	</tr>
+<tr bgcolor="CCCC99">
+	<td>Destroyer</td>
+	<td>2</td>
+	<td>3</td>
+	<td>2</td>
+	<td>8</td>
+	<td>isDestroyer</td>
+	</tr>
+	
+	
+	<td>Cruiser</td>
+	<td>3</td>
+	<td>3</td>
+	<td>2</td>
+	<td>10</td>
+	<td>Transport up to 1 S unit, canBombard</td>
+	</tr>
+
+	
+<tr bgcolor="CCCC99">	
+	<td>Carrier</td>
+	<td>1</td>
+	<td>3</td>
+	<td>2</td>
+	<td>14</td>
+	<td>Transport up to 2 air units</td>
+	</tr>
+	
+	<td>Battleship</td>
+	<td>4</td>
+	<td>4</td>
+	<td>2</td>
+	<td>20</td>
+	<td>isTwoHit, canBombard</td>
+	</tr>
+
+	<tr bgcolor="CDBA96">
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>special abilities</th>
+	</tr>
+</table>
+<br>
+
+
+
+<br>
+<table border="1"bgcolor="CCAA77">
+<tr>
+
+	<th style="font-size:120%;000000"bgcolor="997744"colspan="7">Special RED DOT Units</b></th>
+</tr>
+	<th style="font-size:90%;000000"bgcolor="990000"colspan="7">CAN N0T BE BOUGHT BEFORE ROUND 4</th>
+	</tr>
+<tr bgcolor="CDBA96">
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>size</th>
+	<th>special abilities</th>
+	</tr>
+
+	
+	
+	<td>B.Carrier</td>
+	<td>1</td>
+	<td>3</td>
+	<td>2</td>
+	<td>20</td>
+<td></td>	
+	<td>Two Hit, 3x Fighters</td>
+	</tr>
+
+<tr bgcolor="CCCC99">
+
+	<td>S.Sub</td>
+	<td>3</td>
+	<td>1</td>
+	<td>3</td>
+	<td>9</td>
+<td></td>	
+	<td>Transport up to 1 S unit</td>
+	</tr>
+	
+	<td>L.Fighter</td>
+	<td>3</td>
+	<td>4</td>
+	<td>6</td>
+	<td>12</td>
+	<td></td>
+	<td>gives Art.Support</td>		
+	</tr>
+	
+	<tr bgcolor="CCCC99">
+	<td>NakajimaG5N</td>
+	<td>5</td>
+	<td>2</td>
+	<td>8</td>
+	<td>18</td>
+	<td></td>
+	<td>canDoSBR/Art.Support</td>
+	</tr>
+
+
+	<td>Lancaster</td>
+	<td>5</td>
+	<td>2</td>
+	<td>8</td>
+	<td>18</td>
+	<td></td>
+	<td>canDoSBR/Art.Support</td>
+	</tr>
+	
+	<tr bgcolor="CCCC99">
+	<td>B29</td>
+	<td>5</td>
+	<td>2</td>
+	<td>8</td>
+	<td>18</td>
+	<td></td>
+	<td>canDoSBR/Art.Support</td>
+	</tr>
+	
+	
+	
+	
+	<td>Bunker</td>
+	<td>0</td>
+	<td>3</td>
+	<td>0</td>
+	<td>6</td>
+	<td></td>
+	<td>isTwoHit, read below *</td>
+	</tr>
+
+	<tr bgcolor="CDBA96">
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<td>size</td>
+	<th>special abilities</th>
+	</tr>
+</table>
+
+<div style="text-align: left;">
+<br>*-For every territory, owned at the start of the turn, a maximum of ONE Bunker can be purchased PER TURN.
+<br>
+<br>
+<div style="text-align: center;">
+
+<tr>
+<th style="font-size:105%;000000"> 
+<br><b>Little Islands are Connected like Land</b>
+<br>
+
+<br><b>Canals are shown by Blue Dots</b> 
+<br>(You have to Own both sides to pass trough Canals) </th>
+</tr>
+
+<br>
+<br>
+<h1 style="text-align: center;font-size:120%;000000">Rule Clarifications</h1>
+
+<br> <b>Default Rules for Disputable Situations:</b>
+
+<div style="text-align: left;">
+<br><b>  Unloading of Transports</b> from a COMBAT SEAZONE into a friendly territory, PRIOR to combat, is possible, due to a TripleA bug, but considered <b>illegal</b>.
+<br>
+
+
+<br>
+<br><b>  AA's on Transports</b> fire on planes passing over them during combat move.
+<br> This is of course <b>what I would do if my AA was straped to the transport and a plane was trying to sink me.</b>
+<br>
+
+
+<br>
+
+<br> <b>Differences due to the New Phase Order:</b>
+<div style="text-align: left;">
+<br><b>  </b>Under the Phase Order, one knows any air losses from AA fly-overs during combat movement before his purchase.
+<br>
+<br>
+<div style="text-align: center;">
+<br> <b>Special Thanks To:</b>
+<br>
+<br><b>Lobster, Ice, Admetus, Axisgeneral, Pug, Hippotamus</b>
+<br><b>Wirkey, Niklas, Kesselring, Smallman, CowardGneis, Veqryn, Rajwarrior...</b>
+<br>
+  <br>
+    <br> <b>Changelog: 1.9.2 & 1.9.3 (by blumb)</b>
+    Restored bb repair at begining of round by default. (stll editable)
+    Restored carrier rules to Sieg's original.
+    <br>
+ <br> <b>Changelog: 1.9.1 (by blumb)</b>
+<br>+1 PU in High Desert
+<br>Fixed Hawaii factory error
+<br>
+ <br> <b>Changelog: 1.8.2 (by blumb)</b>
+<br>Fixed the canals. They really all work now.
+<br>Cleaned up the notes
+  
+<br> <b>Changelog: 1.8.1 (by blumb)
+<br>Changed names to make Vancouver Canadian and US make more sense.
+  
+<br>PU changes with the occuring with other name changes:
+  
+<br>was kulhuii now Pearl Harbor, has new factory, PU 2 was 4
+<br>was California now Los Angeles, has new factory, PU 8 was 4
+<br>was Pearl Harbor now Hilo PU 2 was 4
+<br>was Vegas now Central Valley PU 4 was 2
+<br>was Nevada now High Desert PU 1 was 2
+<br>was Los Angeles now San Francisco PU 10 was 15
+  
+<br>So that's 2 new American factories but 1 less PU and 3 more production on mainland.
+<br>Plus you can now produce in sz27.
+  
+<br>Neutral flyover is now impossible.
+  
+<br>bb repair at the begining of the round by default now. It's fully editable.
+    
+<br>Russian infantry has coats since it's cold up there;)
+  <br>
+<br>
+<br> <b>Changelog: 1.7.3 (by rajwarrior)</b>
+<br>Fixed polygon errors with Hainan & Kochi islands
+<br>All canals working (NOTE: Soem to Flores Canal:
+<br>Must own Soem AND Bava to move from sz59 to sz50,
+<br>Must own Bava AND Flores to move from sz58 to sz50.
+<br>Nayumo to S.G Canal: Must own S.G AND Ceram to move from
+<br>sz81 to sz49. Only way to make the canals work between 3 sz
+<br>Added Sieg Logo and Canal Dots as decorations for those
+<br>that play without relief tiles active.
+<br>
+<br>
+<br> <b>Changelog: 1.7.1 and 1.7.2 (all done by Veqryn)</b>
+<br>Fixed H.Cruiser parsing error.
+<br>Fixing error in naming of units (some did not have uppercase names in the image folder)
+<br>Gave Rocky Mt +4 Production.
+<br>
+<br>
+<br> <b>Changelog: 1.7 (all done by Veqryn)</b>
+<br>
+<br>Renamed to remove special characters from folder and xml names.
+<br>Coded and Added new low luck options.
+<br>Coded and Added "Units Repair Hits Start Turn" as an option, which if true will have Battleships and Bunkers (any 2-hitpoint unit) only repair damage at the beginning of their owner's turn.
+<br>Updated TRS to take advantage of triggered rule changes to have red dot units and bunkers not appear for purchasing during beginning turns, and the ability to turn them off completely by deselecting "Use Triggers".
+<br>Bunkers (Constructions) code updated to work differently.  New game properties listed below (all On by default).
+<br> - "More Constructions with/without Factory" - If ON then you may have a total number of bunkers up to the PU value of a territory (minimum 1), in territories with/without factories. If OFF then you may have only 1 total bunker per territory.
+<br> - "Unlimited Constructions" - If ON it over-rides above 2 game properties to allow infinite total bunkers per territory. If OFF then things are determined by the above 2 game properties.
+<br> - No matter what, you can only place 1 bunker per territory per round. Bunkers do not take up a factory slot when being placed.
+<br>
+<br>
+<br> <b>Changelog: 1.6</b>
+
+<br> + 7 PUs for US in L.A
+<br> Gizo upped to 2 PUs
+<br> Terretory Connects 
+
+<br>
+<br>
+<br> <b>Changelog: 1.5</b>
+
+<br> + 1 Inf for China in Sian
+<br> New Guinea Ter. upped to 11 Pus
+<br> N.G Upped to 2 Pus
+<br> Some renaiming of ter. 
+<br> Mirrored Allies Ships
+<br>
+<br>
+<br> <b>Changelog: 1.4</b>
+
+<br> + 1 Japanese Sub in sz11
+<br> Belogorsk and Vladivostock upped to 3 PUs
+<br> New Fighter and Bomber Images for UK
+<br>
+<br>
+<br>
+<br> <b>Changelog: 1.3</b>
+
+<br>
+<br>+ 1 Infantry in Xiangsi and +2 PUs
+<br>- 1 Early Fighter for Masaharu
+<br>New Marine Unit (2/2/1/3)
+<br>Mech.Inf reduced to 5
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+<div style="text-align: center;">
+
+<tr>
+<th style="font-size:110%;000000">  <br>SIEG 2010<br>  </th>
+</tr>
+<br>
+<br>
+
+
+
+
+
+</body>
+</html>
